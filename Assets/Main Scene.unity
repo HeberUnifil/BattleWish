@@ -6869,7 +6869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 0}
-  rotateSpeedMovment: 0.05
+  rotateSpeedMovement: 0.05
   anim: {fileID: 0}
 --- !u!1 &7711418184181540512
 GameObject:
