@@ -7946,6 +7946,7 @@ GameObject:
   - component: {fileID: 7704011017306937282}
   - component: {fileID: 7704011017306937281}
   - component: {fileID: 7704011017306937283}
+  - component: {fileID: 7704011017306937284}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -8253,6 +8254,30 @@ MonoBehaviour:
   agent: {fileID: 0}
   rotateSpeedMovement: 0.05
   anim: {fileID: 4326281281483263418}
+--- !u!114 &7704011017306937284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7035174158241025402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f7c6625ee27f3478f9c700c934efcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilityImage1: {fileID: 330971613}
+  abilityText1: {fileID: 788014584}
+  ability1Key: 49
+  ability1Cooldown: 5
+  abilityImage2: {fileID: 1204766230}
+  abilityText2: {fileID: 201179284}
+  ability2Key: 50
+  ability2Cooldown: 5
+  abilityImage3: {fileID: 1597143426}
+  abilityText3: {fileID: 259241908}
+  ability3Key: 51
+  ability3Cooldown: 5
 --- !u!1 &7711418184181540512
 GameObject:
   m_ObjectHideFlags: 0
