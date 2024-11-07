@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\heber\\Documents\\BattleWish\\Assets\\",
+  "WorkspaceRootPath": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|d:\\users\\heber\\documents\\battlewish\\assets\\assets\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|c:\\users\\bruno\\downloads\\battlewish\\assets\\assets\\highlightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\highlightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|c:\\users\\bruno\\downloads\\battlewish\\assets\\assets\\disabledoutlineonstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\disabledoutlineonstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|d:\\users\\heber\\documents\\battlewish\\assets\\assets\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\abilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CameraManager.cs",
-              "DocumentMoniker": "D:\\Users\\heber\\Documents\\BattleWish\\Assets\\Assets\\CameraManager.cs",
-              "RelativeDocumentMoniker": "Assets\\CameraManager.cs",
-              "ToolTip": "D:\\Users\\heber\\Documents\\BattleWish\\Assets\\Assets\\CameraManager.cs",
-              "RelativeToolTip": "Assets\\CameraManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA4wBoAAAANAAAAAAAAAA==",
+              "Title": "HighlightManager.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\HighlightManager.cs",
+              "RelativeDocumentMoniker": "Assets\\HighlightManager.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\HighlightManager.cs",
+              "RelativeToolTip": "Assets\\HighlightManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T21:01:59.393Z",
+              "WhenOpened": "2024-11-07T19:33:17.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "D:\\Users\\heber\\Documents\\BattleWish\\Assets\\Assets\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Movement.cs",
-              "ToolTip": "D:\\Users\\heber\\Documents\\BattleWish\\Assets\\Assets\\Movement.cs",
-              "RelativeToolTip": "Assets\\Movement.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA6wDEAAABJAAAAAAAAAA==",
+              "Title": "DisabledOutlineOnStart.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\DisabledOutlineOnStart.cs",
+              "RelativeDocumentMoniker": "Assets\\DisabledOutlineOnStart.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\DisabledOutlineOnStart.cs",
+              "RelativeToolTip": "Assets\\DisabledOutlineOnStart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T20:32:12.973Z",
+              "WhenOpened": "2024-11-07T18:50:41.173Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Abilities.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\Abilities.cs",
+              "RelativeDocumentMoniker": "Assets\\Abilities.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\Abilities.cs",
+              "RelativeToolTip": "Assets\\Abilities.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwGMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T23:13:42.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraManager.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\CameraManager.cs",
+              "RelativeDocumentMoniker": "Assets\\CameraManager.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\CameraManager.cs",
+              "RelativeToolTip": "Assets\\CameraManager.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T21:01:59.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Movement.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\Movement.cs",
+              "RelativeToolTip": "Assets\\Movement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T20:32:12.973Z"
             }
           ]
         }

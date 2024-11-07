@@ -363,7 +363,10 @@
 "Assets/Character & Environment Asset/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/MouseLook.cs"
 "Assets/Character & Environment Asset/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/PlayerMovement.cs"
 "Assets/Character & Environment Asset/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs"
+"Assets/DisabledOutlineOnStart.cs"
+"Assets/HighlightManager.cs"
 "Assets/Movement.cs"
+"Assets/QuickOutline/Scripts/Outline.cs"
 -langversion:9.0
 /deterministic
 /optimize+

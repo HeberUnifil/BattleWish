@@ -13,6 +13,11 @@ public class Movement : MonoBehaviour
     public Animator anim;
     float motionSmoothTime = 0.1f;
 
+    [Header("Enemy Targeting")]
+    public GameObject targetEnemy;
+    public float stoppingDistance;
+    
+
     void Start()
     {
         agent = gameObject.GetComponent<NavMeshAgent>();
@@ -41,16 +46,54 @@ public class Movement : MonoBehaviour
             {
                 if (hit.collider.tag == "Ground")
                 {
-                    agent.SetDestination(hit.point);
-                    agent.stoppingDistance = 0;
 
-                    Quaternion rotationToLookAt = Quaternion.LookRotation(hit.point - transform.position);
-                    float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y, rotationToLookAt.eulerAngles.y, ref rotateVelocity, rotateSpeedMovement * (Time.deltaTime * 5));
+                    MoveToPosition(hit.point);
 
-                    transform.eulerAngles = new Vector3(0, rotationY, 0);
-
+                }
+                else if (hit.collider.CompareTag("Enemy"))
+                {
+                    MoveTowardsEnemy(hit.collider.gameObject);
                 }
             }
         }
+            if (targetEnemy != null)
+            {
+                if (Vector3.Distance(transform.position, targetEnemy.transform.position) < stoppingDistance)
+                {
+                    agent.SetDestination(targetEnemy.transform.position);
+                }
+            }
+    }
+
+    public void MoveToPosition(Vector3 position)
+    {
+        agent.SetDestination(position);
+        agent.stoppingDistance = 0;
+
+        Rotation(position);
+
+        if (targetEnemy != null) 
+        { 
+        targetEnemy  = null;
+        }
+
+    }
+
+    public void MoveTowardsEnemy(GameObject enemy)
+    {
+        targetEnemy = enemy;
+        agent.SetDestination(targetEnemy.transform.position);
+        agent.stoppingDistance = stoppingDistance;
+
+        Rotation(targetEnemy.transform.position);
+
+    }
+
+    public void Rotation(Vector3 lookAtPosition)
+    {
+        Quaternion rotationToLookAt = Quaternion.LookRotation(lookAtPosition - transform.position);
+        float rotationY = Mathf.SmoothDampAngle(transform.eulerAngles.y, rotationToLookAt.eulerAngles.y, ref rotateVelocity, rotateSpeedMovement * (Time.deltaTime * 5));
+
+        transform.eulerAngles = new Vector3(0, rotationY, 0);
     }
 }
