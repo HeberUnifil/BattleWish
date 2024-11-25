@@ -9,19 +9,19 @@ public class Movement : MonoBehaviour
     public NavMeshAgent agent;
     public float rotateSpeedMovement = 0.05f;
     private float rotateVelocity;
-
     public Animator anim;
     float motionSmoothTime = 0.1f;
 
     [Header("Enemy Targeting")]
     public GameObject targetEnemy;
     public float stoppingDistance;
+    private HighlightManager hmScript;
     
 
     void Start()
     {
         agent = gameObject.GetComponent<NavMeshAgent>();
-
+        hmScript = GetComponent<HighlightManager>();
     }
 
     void Update()
@@ -73,7 +73,8 @@ public class Movement : MonoBehaviour
         Rotation(position);
 
         if (targetEnemy != null) 
-        { 
+        {
+        hmScript.DeselecHighlight();
         targetEnemy  = null;
         }
 
@@ -86,7 +87,7 @@ public class Movement : MonoBehaviour
         agent.stoppingDistance = stoppingDistance;
 
         Rotation(targetEnemy.transform.position);
-
+        hmScript.SelectedHighlight();
     }
 
     public void Rotation(Vector3 lookAtPosition)

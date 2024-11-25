@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DisableOutlineOnStart : MonoBehaviour
+public class HighlightManager : MonoBehaviour
 
 {
     private Transform highlightedObj;

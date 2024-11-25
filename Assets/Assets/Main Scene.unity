@@ -814,6 +814,61 @@ Transform:
   - {fileID: 9117845394016567579}
   m_Father: {fileID: 7704011017306937280}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1001155681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1001155683}
+  - component: {fileID: 1001155682}
+  m_Layer: 0
+  m_Name: Minion Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1001155682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001155681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6e835adafc52a45991e84aa897149d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minionMoveSpeed: 5
+  superMinionMoveSpeed: 5
+  minionPrefab: {fileID: 4883828576974009477, guid: 26c6deb918f185d4d91a1d41d8df1dc8, type: 3}
+  superMinionPrefab: {fileID: 4883828576974009477, guid: 3f920764203d5b74091732b4ab4343e3, type: 3}
+  spawnPoints:
+  - {fileID: 1001155683}
+  spawnInterval: 20
+  miniondPerWave: 6
+  wavesUntilSuperMinion: 3
+  waveCount: 0
+  delayBetweenMinions: 1
+--- !u!4 &1001155683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001155681}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.01, y: -0.34, z: 65.32}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1042212237
 GameObject:
   m_ObjectHideFlags: 0
@@ -7946,8 +8001,9 @@ GameObject:
   - component: {fileID: 7704011017306937282}
   - component: {fileID: 7704011017306937281}
   - component: {fileID: 7704011017306937283}
+  - component: {fileID: 7704011017306937286}
   - component: {fileID: 7704011017306937284}
-  - component: {fileID: 7704011017306937285}
+  - component: {fileID: 7704011017306937287}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -8281,7 +8337,22 @@ MonoBehaviour:
   abilityText3: {fileID: 259241908}
   ability3Key: 51
   ability3Cooldown: 5
---- !u!114 &7704011017306937285
+--- !u!114 &7704011017306937286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7035174158241025402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3363be945fcdd24c9878d6d619e564c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectableLayer:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!114 &7704011017306937287
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9690,7 +9761,7 @@ GameObject:
   - component: {fileID: 8964000334435408186}
   m_Layer: 7
   m_Name: PT_Medieval_Plague_Doctor
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11215,9 +11286,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 4
+  m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.84, z: 0}
 --- !u!114 &8964000334439557116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11650,3 +11721,4 @@ SceneRoots:
   - {fileID: 1114794777}
   - {fileID: 426806615}
   - {fileID: 8964000334432585816}
+  - {fileID: 1001155683}
