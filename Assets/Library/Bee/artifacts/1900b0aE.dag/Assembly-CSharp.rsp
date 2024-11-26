@@ -359,14 +359,20 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Abilities.cs"
+"Assets/BillboardCanvas.cs"
 "Assets/CameraManager.cs"
 "Assets/Character & Environment Asset/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/MouseLook.cs"
 "Assets/Character & Environment Asset/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/PlayerMovement.cs"
 "Assets/Character & Environment Asset/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs"
 "Assets/DisabledOutlineOnStart.cs"
+"Assets/HealthUI.cs"
 "Assets/HighlightManager.cs"
+"Assets/MeleeCombat.cs"
+"Assets/MInionAI.cs"
+"Assets/MinionSpawner.cs"
 "Assets/Movement.cs"
 "Assets/QuickOutline/Scripts/Outline.cs"
+"Assets/Stats.cs"
 -langversion:9.0
 /deterministic
 /optimize+
