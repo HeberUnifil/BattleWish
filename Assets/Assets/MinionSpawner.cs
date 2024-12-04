@@ -72,8 +72,16 @@ public class MinionSpawner : MonoBehaviour
         GameObject superMinion = Instantiate(superMinionPrefab, spawnPoint.position, spawnPoint.rotation);
 
         UnityEngine.AI.NavMeshAgent superMinionAgent = superMinion.GetComponent<UnityEngine.AI.NavMeshAgent>();
-        superMinionAgent.speed = superMinionMoveSpeed;
+        if (superMinionAgent != null)
+        {
+            superMinionAgent.speed = superMinionMoveSpeed;
+        }
+        else
+        {
+            Debug.LogError("NavMeshAgent component is missing on superMinionPrefab.");
+        }
     }
+
 
 
 }

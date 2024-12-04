@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - enemy
   - Enemy
+  - Allyminion
+  - Turret
   layers:
   - Default
   - TransparentFX

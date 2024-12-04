@@ -10,7 +10,7 @@ public class MInionAI : MonoBehaviour
     private NavMeshAgent agent;
     private Transform currentTarget;
     public string enemyMinionTag = "Enemy";
-    public string turretTag = "Terret";
+    public string turretTag = "Turret";
     public float stopDistance = 2.0f;
     public float aggroRange = 5.0f;
     public float targetSwitchInterval = 2.0f;
@@ -53,18 +53,13 @@ public class MInionAI : MonoBehaviour
         }
         else
         {
-            GameObject[] turrents = GameObject.FindGameObjectsWithTag(turretTag);
-            currentTarget = GetClosestObject(turrents);
+            GameObject[] turrets = GameObject.FindGameObjectsWithTag(turretTag);
+            currentTarget = GetClosestObject(turrets);
 
         }
     }
 
-    private Transform GetClosestObject(GameObject[] turrents)
-    {
-        throw new NotImplementedException();
-    }
-
-    private Transform GetClosestObject(GameObject[] objects, float radius)
+    private Transform GetClosestObject(GameObject[] objects)
     {
         float closestDistance = Mathf.Infinity;
         Transform closestObject = null;
@@ -79,8 +74,11 @@ public class MInionAI : MonoBehaviour
                 closestObject = obj.transform;
             }
         }
+
         return closestObject;
     }
+
+
 
     private Transform GetClosestObjectInRadius(GameObject[] objects, float radius)
     {

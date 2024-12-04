@@ -19,6 +19,11 @@ public class Stats : MonoBehaviour
     private void Awake()
     {
         healthUI = GetComponent<HealthUI>();
+        if (healthUI == null)
+        {
+            Debug.LogError("HealthUI component not found on this GameObject.");
+            return;
+        }
 
         currentHealth = health;
         targetHealth = health;
@@ -26,6 +31,7 @@ public class Stats : MonoBehaviour
         healthUI.Start3DSlider(health);
         healthUI.Update2DSlider(health, currentHealth);
     }
+
 
     private void Update()
     {
@@ -61,7 +67,7 @@ public class Stats : MonoBehaviour
     {
         if(damageCoroutine == null)
         {
-            damageCoroutine = StartCoroutine(LerpHealth());
+           
         }
     }
 
@@ -84,7 +90,7 @@ public class Stats : MonoBehaviour
         currentHealth = target;
         UpdateHealthUI();
 
-        damageCoroutine = null;
+        
     }
 
     private void UpdateHealthUI()

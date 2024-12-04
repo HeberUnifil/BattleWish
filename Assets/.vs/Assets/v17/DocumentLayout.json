@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|c:\\users\\bruno\\downloads\\battlewish\\assets\\assets\\meleecombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\meleecombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\meleecombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\meleecombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\healthuiminion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\healthuiminion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|c:\\users\\bruno\\downloads\\battlewish\\assets\\assets\\healthui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\statsminion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\statsminion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\billboardcanvasminion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\billboardcanvasminion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\enemyturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\minionspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\minionspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\healthui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\healthui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|c:\\users\\bruno\\downloads\\battlewish\\assets\\assets\\billboardcanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\billboardcanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\minionai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\minionai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\assets\\billboardcanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17533FA3-357A-CEC6-ED1C-9FA92629C572}|Assembly-CSharp.csproj|solutionrelative:assets\\billboardcanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +58,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "StatsMinion.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\StatsMinion.cs",
+              "RelativeDocumentMoniker": "Assets\\StatsMinion.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\StatsMinion.cs",
+              "RelativeToolTip": "Assets\\StatsMinion.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvygAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T19:01:41.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BillboardCanvasMinion.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\BillboardCanvasMinion.cs",
+              "RelativeDocumentMoniker": "Assets\\BillboardCanvasMinion.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\BillboardCanvasMinion.cs",
+              "RelativeToolTip": "Assets\\BillboardCanvasMinion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:54:13.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HealthUIMinion.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\HealthUIMinion.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthUIMinion.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\HealthUIMinion.cs",
+              "RelativeToolTip": "Assets\\HealthUIMinion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:43:34.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MinionSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\MinionSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\MinionSpawner.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\MinionSpawner.cs",
+              "RelativeToolTip": "Assets\\MinionSpawner.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAA4wFAAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:03:46.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyTurret.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\EnemyTurret.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemyTurret.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\EnemyTurret.cs",
+              "RelativeToolTip": "Assets\\EnemyTurret.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:55:14.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Projectile.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Projectile.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:45:17.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MInionAI.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\MInionAI.cs",
+              "RelativeDocumentMoniker": "Assets\\MInionAI.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\MInionAI.cs",
+              "RelativeToolTip": "Assets\\MInionAI.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAlwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:32:17.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "HealthUI.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\HealthUI.cs",
               "RelativeDocumentMoniker": "Assets\\HealthUI.cs",
               "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\HealthUI.cs",
               "RelativeToolTip": "Assets\\HealthUI.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T14:01:41.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T14:01:41.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "BillboardCanvas.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\BillboardCanvas.cs",
               "RelativeDocumentMoniker": "Assets\\BillboardCanvas.cs",
@@ -55,8 +166,7 @@
               "RelativeToolTip": "Assets\\BillboardCanvas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T13:54:39.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T13:54:39.258Z"
             },
             {
               "$type": "Document",
@@ -66,35 +176,35 @@
               "RelativeDocumentMoniker": "Assets\\MeleeCombat.cs",
               "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\MeleeCombat.cs",
               "RelativeToolTip": "Assets\\MeleeCombat.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAWwD8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T23:50:54.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Stats.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\Stats.cs",
               "RelativeDocumentMoniker": "Assets\\Stats.cs",
               "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\Stats.cs",
               "RelativeToolTip": "Assets\\Stats.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAD4v1sAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBcAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:45:33.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T23:45:33.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Movement.cs",
               "ToolTip": "C:\\Users\\bruno\\Downloads\\BattleWish\\Assets\\Assets\\Movement.cs",
               "RelativeToolTip": "Assets\\Movement.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAmwEwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAWwDEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T20:32:12.973Z"
+              "WhenOpened": "2024-10-23T20:32:12.973Z",
+              "EditorCaption": ""
             }
           ]
         }

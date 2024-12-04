@@ -61,9 +61,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MInionAI.cs" />
+    <Compile Include="Assets\StatsMinion.cs" />
     <Compile Include="Assets\Character &amp; Environment Asset\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\PlayerMovement.cs" />
     <Compile Include="Assets\MinionSpawner.cs" />
+    <Compile Include="Assets\Projectile.cs" />
     <Compile Include="Assets\BillboardCanvas.cs" />
+    <Compile Include="Assets\BillboardCanvasMinion.cs" />
+    <Compile Include="Assets\EnemyTurret.cs" />
     <Compile Include="Assets\HealthUI.cs" />
     <Compile Include="Assets\HighlightManager.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
@@ -73,6 +77,7 @@
     <Compile Include="Assets\MeleeCombat.cs" />
     <Compile Include="Assets\Character &amp; Environment Asset\Polytope Studio\Lowpoly_Characters\Sources\Scripts\PT_Create_Prefab.cs" />
     <Compile Include="Assets\Abilities.cs" />
+    <Compile Include="Assets\HealthUIMinion.cs" />
     <Compile Include="Assets\Stats.cs" />
     <Compile Include="Assets\Character &amp; Environment Asset\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\MouseLook.cs" />
   </ItemGroup>
